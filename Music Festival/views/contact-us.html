@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Festival - Contact Us</title>
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="/" class="logo"> <i class="fas fa-music"></i> Music Festival</a>
+
+        <nav class="navbar">
+            <a href="/">Homepage</a>
+            <a href="/about-us">About Us</a>
+            <a href="/contact-us">Contact Us</a>
+        </nav>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact"><br>
+
+        <h1 class="heading">contact us</h1>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="img/contact.gif" alt="">
+            </div>
+    
+            <form id="contact-form">
+    
+                <div class="inputBox">
+                    <input type="text" id="name" placeholder="Enter Name" required>
+                    <input type="email" id="email" placeholder="Enter Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+    
+                <div class="inputBox">
+                    <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                </div>
+    
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">send message</button>
+    
+            </form>
+    
+        </div>
+    
+    </section>
+    
+
+    <!-- end -->
+
+    <!-- subscribe -->
+
+    <section class="subscribe">
+        <div class="row">
+          <div class="content">
+            <p>subscribe to the newsletter</p>
+          </div>
+          <div class="inputBox">
+            <input type="email" id="newsletter-email" class="email" placeholder="Your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <button class="btn btn" onclick="showNewsletterToast()">subscribe</button>
+          </div>          
+        </div> 
+    </section>
+      
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit">created by <span>Doram & AnuDeep</span> | all rights reserved!</div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- magnific popup js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
